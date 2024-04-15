@@ -467,7 +467,7 @@ const Tetris: React.FC = () => {
     <>
       <div className="game-header">
         <a
-          href="https://github.com/RylanBot/threejs-tetris-react"
+          href="https://github.com/lehung2022/vite-tetromino-v3"
           rel="noopener noreferrer"
         >
           <img
