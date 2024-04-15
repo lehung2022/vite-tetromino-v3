@@ -14,7 +14,7 @@ import {
 } from "../components/Tetromino";
 import ThreeSidedGrid from "../components/ThreeSidedGrid";
 
-import GitHubLogo from "../assets/img/github.svg";
+
 
 
 let bag: TetriminoType[] = [];
@@ -466,16 +466,6 @@ const Tetris: React.FC = () => {
   return (
     <>
       <div className="game-header">
-        <a
-          href="https://github.com/lehung2022/vite-tetromino-v3"
-          rel="noopener noreferrer"
-        >
-          <img
-            src={GitHubLogo}
-            alt="Project Repository"
-            className="github-logo"
-          />
-        </a>
 
         <h1 className="title-3d">3D &nbsp;Tetris</h1>
 
